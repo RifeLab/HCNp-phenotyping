@@ -82,7 +82,7 @@ Pixel Blueness Scoring
 
 ## Jig
 <p align="center">
-	<img src="./readme_assets/jig-model.png"/>
+	<img src="./readme_assets/jig-model.jpg"/>
 </p>
 
 We developed a 3D printed jig to hold the test strips in place and simplify image analysis. This jig has four components, a base, a mask, and two clamping arms. The base has a small hole in the upper right corner to insert a small piece of filament indicating what should be the A1 corner of the plate. The hinges were designed to use 1.75mm diameter filament as the pin. The STL files contain the separate models and are printable on most 3D printers. The 3MF file was created specifically for Bambu Lab printers with the intention of multi-colored printing to add an additional reference point that can be used for image processing.
