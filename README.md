@@ -79,3 +79,12 @@ Pixel Blueness Scoring
 59
 5
 ```
+
+## Jig
+The Base has a small hole in the upper right corner to insert a small piece of filament indicating what should be the A1 corner of the plate
+Hinges were designed to use 1.75mm diameter filament as the pin. STL files are the base models and are printable on most 3D printers. The 3MF file were created specifically for Bambu Studio with the intention of multi-colored printing
+
+For a complete jig print:
+- 1x Base
+- 1x Mask
+- 2x Arms
