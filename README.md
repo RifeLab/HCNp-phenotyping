@@ -1,4 +1,4 @@
-# HCN Phenotyping
+# HCNp Phenotyping
 
 ## Overview
 
