@@ -15,7 +15,7 @@ python ccpa2_grid.py /full/path/to/example_image
 Renders the user's mouse position, the console prints a list of clicked points.
 
 <p align="center">
-	<img src="./readme_assets/definer.png" width="1920" height="1080" />
+	<img src="./readme_assets/definer.png"/>
 </p>
 
 ## Main script
@@ -23,7 +23,7 @@ Renders the user's mouse position, the console prints a list of clicked points.
 Renders the static coordinates created by the definer. On left click, the 'blueness' for each well is scored, and the tabular results are copied to the os clipboard. Image can be rotated with 1/2, or cropped with the space button. There is also a circles script that renders/analyzes circles.
 
 <p align="center">
-	<img src="./readme_assets/example.png" width="1920" height="1080"	/>
+	<img src="./readme_assets/example.png"/>
 </p>
 
 
@@ -81,10 +81,8 @@ Pixel Blueness Scoring
 ```
 
 ## Jig
-The Base has a small hole in the upper right corner to insert a small piece of filament indicating what should be the A1 corner of the plate
-Hinges were designed to use 1.75mm diameter filament as the pin. STL files are the base models and are printable on most 3D printers. The 3MF file were created specifically for Bambu Studio with the intention of multi-colored printing
+<p align="center">
+	<img src="./readme_assets/jig-model.png"/>
+</p>
 
-For a complete jig print:
-- 1x Base
-- 1x Mask
-- 2x Arms
+We developed a 3D printed jig to hold the test strips in place and simplify image analysis. This jig has four components, a base, a mask, and two clamping arms. The base has a small hole in the upper right corner to insert a small piece of filament indicating what should be the A1 corner of the plate. The hinges were designed to use 1.75mm diameter filament as the pin. The STL files contain the separate models and are printable on most 3D printers. The 3MF file was created specifically for Bambu Lab printers with the intention of multi-colored printing to add an additional reference point that can be used for image processing.
